@@ -101,6 +101,10 @@ main img {
     width: 3rem;
 }
 
+main a {
+	color: var(--black-blue);
+}
+
 main a:hover {
     opacity: 0.75;
 }
