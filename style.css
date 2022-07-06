@@ -80,14 +80,14 @@ header p {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.8rem;
     font-weight: 300;
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
 
 
 /* ===== MAIN =============== */
 main {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 
@@ -102,7 +102,7 @@ main img {
 }
 
 main a:hover {
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
 main a:visited{
@@ -120,6 +120,8 @@ main ul li a {
     border-radius: 0.6rem;
 
     background-color: #00FA9A;
+
+    transition: opacity 400ms;
 }
 
 
@@ -135,16 +137,22 @@ footer p {
 
 footer p a {
     color: var(--marine);
+    transition: opacity 400ms;
 }
 
 footer p a:hover {
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
 footer p a:visited {
     color: var(--marine);
 }
 
+footer p img {
+    height: 1.2rem;
+    margin-inline: 0.25rem;
+}
+
 footer p a img {
-    width: 1rem;
+    height: 1rem;
 }
