@@ -51,8 +51,8 @@ header, footer {
 /* ===== CONTAINER =============== */
 .container {
     width: 40rem;
-    margin-top: 6rem;
-    margin-inline: auto;
+    margin: 6rem auto;
+    text-align: center;
 }
 
 
